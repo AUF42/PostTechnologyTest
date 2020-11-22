@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite General">
+    <test name="TestMarketPage">
+    <classes>
+        <class name="exercises.FollowYandexMarketPageTest"/>
+        <class name="exercises.FilterYandexMarketTest"/>
+    </classes>
+    </test>
+</suite>
