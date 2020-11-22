@@ -24,7 +24,6 @@ public class FilterYandexMarketTest extends  AbstractBaseTest {
         assertionSteps.assertCorrectTitleFilteredList();
         actionSteps.clickAllFiltersButton();
         //На этом шаге неверный ожидаемый рез-т. Написан в формате шага.
-        //для соответствия с настоящим тест-кейсом  - следующий шаг закомментирован
         actionSteps.inputManufactorVitek();
         actionSteps.checkFoundManufacturerCheckbox();
         actionSteps.clearManufactorForm();
