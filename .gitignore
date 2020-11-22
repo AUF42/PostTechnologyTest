@@ -13,3 +13,4 @@
 /.idea
 /debug.log
 /PostTechnologyTest.iml
+target/generated-test-sources/
