@@ -18,7 +18,6 @@ public class FilterYandexMarketTest extends  AbstractBaseTest {
         assertionSteps.assertCorrectTitleYandexMarketPage();
         actionSteps.inputDataSearchForm();
         //пропущен шаг в тест-кейсе  - нажатие кнопки "Найти"
-        //для соответствия с настоящим тест-кейсом  - следующий шаг закомментирован
         actionSteps.clickSearchButton();
         //пропущен шаг в тест-кейсе - выбор кликабельной подкатегории Пылесосы в бытовой технике
         actionSteps.chooseSubcategoryVacuumCleaner();
