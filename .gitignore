@@ -1,6 +1,5 @@
 # Default ignored files
 /shelf/
-/.idea/
 # Datasource local storage ignored files
 /../../../../../../:\Users\Юлия\IdeaProjects\PostTechnologyTest\.idea/dataSources/
 /dataSources.local.xml
@@ -13,4 +12,6 @@
 /debug.log
 /PostTechnologyTest.iml
 target/generated-test-sources/
-/target/
+
+/target
+/.idea
